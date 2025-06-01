@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg nav-Bar">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <!-- <img
+            src="assets/img/flamingtext_com-2092009265.png"
+            alt="Logo"
+            class="logo-img"
+          /> -->
+          <h3 class="logo">Shabir Afridi</h3>
+        </a>
+
+        <!-- Toggler button for mobile view -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+    <main>
+      <section class="hero-section">
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+            <div class="col-md-8">
+              <h3 class="main-headind">Hi, Everyone</h3>
+              <h2 class="main-headind">Shabir afridi</h2>
+              <h4>And I'm a <span class="typed-text"></span></h4>
+              <p class="text-white">
+                I’m a passionate Frontend Developer with a strong foundation in
+                HTML, CSS, JavaScript, and React.js. I love building responsive
+                and interactive websites that provide great user experiences. My
+                goal is to bring ideas to life in the browser, and I’m always
+                eager to learn and grow in this ever-evolving tech world.
+              </p>
+              <div class="social-icons">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100028911352786"
+                  target="_blank"
+                >
+                  <i class="bi bi-facebook social-icon"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/feed/?trk=help_me_menu"
+                  target="_blank"
+                >
+                  <i class="bi bi-linkedin social-icon"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                  <i class="bi bi-instagram social-icon"></i>
+                </a>
+              </div>
+              <button class="cv-btn">Dowonload CV</button>
+            </div>
+            <div class="col-4">
+              <img
+                src="assets/img/WhatsApp Image 2025-01-22 at 16.40.00_3df5ca39.jpg"
+                alt=""
+                class="img-fluid hero-img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-me">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <img
+                src="assets/img/WhatsApp Image 2025-01-22 at 16.40.00_3df5ca39.jpg"
+                alt=""
+                class="img-fluid hero-img"
+              />
+            </div>
+            <div class="col-md-8">
+              <!-- <h3 class="text-center mb-0 aboutme">
+                About<span class="blue_color"> Me</span>
+              </h3> -->
+              <h3 class="text-center mb-0 aboutme color-white">AboutMe</h3>
+
+              <h4 class="Frentend-devloper">Frentend Developer</h4>
+              <p class="Frentend-devloper-phara">
+                I'm a passionate Frontend Developer with experience in building
+                responsive and user-friendly websites using HTML, CSS,
+                JavaScript, and React. I love turning creative ideas into
+                functional web interfaces.
+              </p>
+
+              <button class="readmore">Read more</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card-section"></section>
+    </main>
+    <!-- <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="wave"></div> -->
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      AOS.init();
+
+      new Typed(".typed-text", {
+        strings: ["Web Developer", "Frontend Developer", "React Developer"],
+        typeSpeed: 80,
+        backSpeed: 50,
+        backDelay: 1500,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>

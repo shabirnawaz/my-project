@@ -1,0 +1,131 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow: auto;
+
+  background-color: #032e41;
+}
+
+.nav-Bar {
+  background: #0290cf !important;
+}
+/* .logo-img {
+  width: 173px;
+} */
+.logo {
+  color: #fff;
+}
+
+.main-headind {
+  color: #fff;
+}
+
+.hero-img {
+  margin-left: 24px;
+  border-radius: 22px;
+  margin-top: 33px;
+  height: 66%;
+}
+.hero-section {
+  padding-top: 30px;
+}
+
+/* icon styling */
+.social-icons {
+  display: flex;
+  /* justify-content: center;  */
+  gap: 20px;
+  align-items: center;
+}
+
+.social-icon {
+  font-size: 22px;
+  color: #20d7f2;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #007bff;
+}
+
+.hero-img {
+  animation: moveUpDown 3s ease-in-out infinite;
+}
+.nav-link a {
+  color: #ef8e08de;
+}
+
+.navbar-nav .nav-link.active {
+  color: #ef8e08de;
+}
+.navbar-nav .nav-link:hover {
+  color: #ef8e08de;
+}
+
+.cv-btn {
+  background: #20d7f2;
+  box-shadow: #20d7f2 0px 0px 9px 3px;
+  color: white;
+  padding: 5px;
+  border-radius: 18px;
+  border: none;
+  margin-top: 21px;
+}
+.cv-btn:hover {
+  box-shadow: none;
+}
+.heading_line {
+  background: linear-gradient(to right, #f10821, #011f80);
+  height: 4px !important;
+  border-radius: 10px !important;
+  width: 51%;
+  opacity: 1 !important;
+  margin-bottom: 46px;
+}
+
+.hr_box {
+  display: flex;
+  justify-content: center;
+}
+.hr_box .heading_line {
+  width: 26%;
+}
+
+/* .heading_line {
+  height: 4px;
+  border: none;
+  background: #ef8e08;
+  background-size: 200% 100%;
+  animation: animateLine 2s linear infinite;
+  width: 100px;
+  margin-top: 8px;
+  border-radius: 10px;
+} */
+
+.aboutme {
+  color: #fff;
+}
+.Frentend-devloper {
+  color: #fff;
+}
+
+.Frentend-devloper-phara {
+  color: #fff;
+}
+.readmore {
+  background: #20d7f2;
+  box-shadow: #20d7f2 0px 0px 9px 3px;
+  color: white;
+  padding: 5px 16px 5px 14px;
+
+  border-radius: 18px;
+  border: none;
+  margin-top: 21px;
+}
+
+.readmore:hover {
+  box-shadow: none;
+}
